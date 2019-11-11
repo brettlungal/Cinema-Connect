@@ -1,20 +1,36 @@
 <!DOCTYPE html>
-
 <html>
 
-    <head>
-        <title>Cinema Connect</title>
-        <link href="main.css" rel="stylesheet"/>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    </head>
-    <body>
-        <header>
-            <nav>
-                <h1>Cinema Connect</h1>
-            </nav>
-        </header>
+  <title>Cinema Connect</title>
+</head>
 
+<body>
+  <header>
+    <div class="container">
+      <div id="logo">
+        <h1>Cinema Connect</h1>
+      </div>
 
-    </body>
+      <button style="width: 100px; height: 50px" onclick="popup();">Click Me!</button>
+      <script type="text/javascript" src="moviePopup.js"></script>
+      <nav>
+        <ul>
+          <li><a href="index.html">Movies</a></li>
+          <li><a href="concession.html">Concession Items</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+</body>
 
 </html>
