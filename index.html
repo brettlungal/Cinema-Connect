@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/style.css">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="main.css">
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Cinema Connect</title>
+  </head>
 
-  <title>Cinema Connect</title>
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <img class="logo" src="./img/Cinema_Connect.png" alt="logo">
 
-<body>
-  <header>
-    <div class="container">
-      <div id="logo">
-        <h1>Cinema Connect</h1>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Movies</a></li>
+            <li><a href="concession.html">Concession Items</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
       </div>
+    </header>
+    <h2><u>Now Playing</u>
+        <p></p>
 
-      <button style="width: 100px; height: 50px" onclick="popup();">Click Me!</button>
-      <script type="text/javascript" src="moviePopup.js"></script>
-      <nav>
-        <ul>
-          <li><a href="index.html">Movies</a></li>
-          <li><a href="concession.html">Concession Items</a></li>
-          <li><a href="account.html">Account</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+        <div class="col-1-5"> <a href="contact.html"> <img src="./img/swPoster.jpg"/></a> </div>
+        <div class="col-1-5"> <a href="contact.html"><img src="./img/isPoster.jpg"/></a></div>
+        <div class="col-1-5"> <a href="contact.html"> <img src="./img/brPoster.jpg"/></a> </div>
+        <div class="col-1-5"> <a href="contact.html"><img src="./img/cmPoster.jpg"/></a> </div>
+        <div class="col-1-5"> <a href="contact.html"> <img src="./img/jPoster.jpg"/></a> </div>
+    </h2>
+    <p>.</p>
+    <h2>
+        <div class="col-6-10"> <a href="contact.html"><img src="./img/ggPoster.jpg"/></a> </div>
+        <div class="col-6-10"> <a href="contact.html"><img src="./img/bpPoster.jpg"/></a> </div>
+        <div class="col-6-10"><a href="contact.html"> <img src="./img/amPoster.jpg"/></a> </div>
+        <div class="col-6-10"> <a href="contact.html"><img src="./img/tsPoster.jpg"/></a></div>
+        <div class="col-6-10"><a href="contact.html"><img src="./img/sPoster.jpg"/></a></div>
+    </h2>
+    
 
-</body>
-
+  </body>
 </html>
