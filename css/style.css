@@ -92,3 +92,91 @@ header nav{
   float: right;
   margin-top: 10px;
 }
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left:0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content{
+  background-color: #f4f4f4;
+  margin: 10% auto;
+  padding: 20px;
+  width: 40%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  animation-name: modalOpen;
+  animation-duration: 0.75s;
+}
+
+.modal-content p{
+  background: #f4f4f4;
+  color: #000;
+}
+
+.modal-header{
+  background: #ffdc82;
+  padding:15px;
+  color: #000;
+}
+
+.modal-header h2{
+  margin:0;
+}
+
+.modal-body img{
+  height: 80%;
+  width: 35%;
+}
+
+.timeSelect{
+  background-color: #ffdc82;
+  padding: 1em 2em;
+  border:0;
+}
+
+.timeSelect:hover{
+  background-color: #b38307;
+}
+.timeSelect:focus{
+  background-color: #b38307;
+  
+}
+
+.closeBtn{
+  color: #000;
+  float: right;
+  font-size: 30px;
+}
+
+.button{
+  background-color: #ffdc82;
+  float:right;
+  margin: -30px;
+  margin-right: 10px;
+  height: 10%;
+  width:15%;
+  padding: 1em 2em;
+  border:0;
+}
+
+.button:hover{
+  background-color: #b38307;
+}
+
+.closeBtn:hover, .closeBtn:focus{
+  color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalOpen{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}

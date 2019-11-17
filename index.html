@@ -23,24 +23,48 @@
         </nav>
       </div>
     </header>
+
+    <div id="movieModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+            <span class="closeBtn">&times;</span>
+            <h2> Select Showtime </h2>
+        </div>
+        <div class="modal-body">
+            <h3>Star Wars: Episode IV-A New Hope</h3>
+            <img src="./img/swPoster.jpg">
+            <div class="showtimes">
+                <button id="130Btn" class="timeSelect">1:30pm</button>
+                <button id="345Btn" class="timeSelect">3:45pm</button>
+                <button id="630Btn" class="timeSelect">6:30pm</button>
+                <button id="900Btn" class="timeSelect">9:00pm</button>
+            </div>
+            
+        </div>
+        <p> . </p>
+        <div class="modal-footer">
+          <a href="seatSelector.html"><button id="contBtn" class="button">Continue</button></a>
+        </div>
+      </div>
+    </div>
+
     <h2><u>Now Playing</u>
         <p></p>
-
-        <div class="col-1-5"> <a href="contact.html"> <img src="./img/swPoster.jpg"/></a> </div>
-        <div class="col-1-5"> <a href="contact.html"><img src="./img/isPoster.jpg"/></a></div>
-        <div class="col-1-5"> <a href="contact.html"> <img src="./img/brPoster.jpg"/></a> </div>
-        <div class="col-1-5"> <a href="contact.html"><img src="./img/cmPoster.jpg"/></a> </div>
-        <div class="col-1-5"> <a href="contact.html"> <img src="./img/jPoster.jpg"/></a> </div>
+        <div id="poster1" class="col-1-5"><img src="./img/swPoster.jpg"/></div>
+        <div class="col-1-5"><img src="./img/isPoster.jpg"/></div>
+        <div class="col-1-5"><img src="./img/brPoster.jpg"/></div>
+        <div class="col-1-5"><img src="./img/cmPoster.jpg"/></div>
+        <div class="col-1-5"><img src="./img/jPoster.jpg"/></div>
     </h2>
     <p>.</p>
     <h2>
-        <div class="col-6-10"> <a href="contact.html"><img src="./img/ggPoster.jpg"/></a> </div>
-        <div class="col-6-10"> <a href="contact.html"><img src="./img/bpPoster.jpg"/></a> </div>
-        <div class="col-6-10"><a href="contact.html"> <img src="./img/amPoster.jpg"/></a> </div>
-        <div class="col-6-10"> <a href="contact.html"><img src="./img/tsPoster.jpg"/></a></div>
-        <div class="col-6-10"><a href="contact.html"><img src="./img/sPoster.jpg"/></a></div>
+        <div class="col-6-10"><img src="./img/ggPoster.jpg"/></div>
+        <div class="col-6-10"><img src="./img/bpPoster.jpg"/></div>
+        <div class="col-6-10"><img src="./img/amPoster.jpg"/></div>
+        <div class="col-6-10"><img src="./img/tsPoster.jpg"/></div>
+        <div class="col-6-10"><img src="./img/sPoster.jpg"/></div>
     </h2>
     
-
+    <script src="moviePopup.js"></script>
   </body>
 </html>
