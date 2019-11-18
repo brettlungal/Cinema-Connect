@@ -35,12 +35,72 @@ p{
   color: #ffdc82;
 }
 
+
+.button{
+  background-color: #fcfc47;
+  border: black 1.5px solid;
+  height: 40px;
+  width: 10%;
+  font-size: x-large;
+}
+
+.button:hover{
+  background-color: #9c9c5d;
+  border: black 1.5px solid;
+}
+
+#backBtn{
+  float:left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  
+}
+
+#continueBtn{
+  margin-right: 50px;
+  float:right;
+  
+}
+
+.contain{
+  display: flex;
+  justify-content: center;
+}
+
+#poster{
+  width: 120%;
+  height: 85%;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
 .grid-container {
     display: grid;
-    height: 400px;
+    float: right;
+    width: 90%;
     color: black;
     padding: 5% 0% 0% 50%;
+    margin-right: 50px;
+    margin-bottom: 50px;
     grid-template-columns: auto auto auto auto auto auto auto auto;
+  }
+
+
+  .grid-item{
+    background-color: white;
+    border: black 0.25px solid;
+    text-align: center;
+    font-size: x-large;
+    line-height: 400%;
+  }
+
+  .grid-item:hover{
+    background-color: grey;
+  }
+
+  .grid-item:focus{
+    background-color: #008000;
   }
 
 .col-1-5{
