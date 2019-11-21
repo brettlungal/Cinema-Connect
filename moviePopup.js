@@ -10,12 +10,11 @@ var timeSelect3 = document.getElementById('630Btn');
 var timeSelect4 = document.getElementById('900Btn');
 var thePoster = document.getElementById('modalPoster');
 var selectedTime = "-1";
-
 //listen for open click
 poster.addEventListener('click', openModal);
 
 //listen for close
-closeBtn.addEventListener('click', closeModal);
+var contBtn = document.getElementById('contBtn');
 
 //listen for outside window click
 window.addEventListener('click',clickOutside);
@@ -26,6 +25,7 @@ timeSelect3.addEventListener('click', selected3);
 timeSelect4.addEventListener('click', selected4);
 
 contBtn.addEventListener('click',continueClick);
+closeBtn.addEventListener('click', closeModal);
 
 function openModal(){
   modal.style.display = 'block';

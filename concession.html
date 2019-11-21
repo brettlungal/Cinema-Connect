@@ -24,5 +24,77 @@
       </div>
     </header>
 
+    <div class="tab">
+      <button class="tab-links" onclick="openTab(event, 'combos')">Combos</button>
+      <button class="tab-links" onclick="openTab(event, 'popcorn')" id="defaultOpen">Popcorn</button>
+      <button class="tab-links" onclick="openTab(event, 'drinks')">Drinks</button>
+      <button class="tab-links" onclick="openTab(event, 'candy')">Candy</button>
+    </div>
+
+    <!--Tab content-->
+    <div id="combos" class="tab-content">
+      <h2>Combos</h2>
+    </div>
+
+    <div id="popcorn" class="tab-content">
+      
+        <div class="popcornRow">
+            <div class="popcornColumn">
+              <img id="large" src="./img/Popcorn/large.png" style="width:100%">
+              <span class="desc">Large</span>
+              <p></p>
+              <div class="quantity">
+                <div class="tri-left"></div>
+                <span class="qtyCount">0</span>
+                <div class="tri-right"></div>
+              </div>
+              <p></p>
+              <button class="addBtn">Add to order</button>
+            </div>
+        
+            <div class="popcornColumn">
+              <img id="medium" src="./img/Popcorn/medium.png" style="width:100%">
+              <span class="desc">Medium</span>
+              <p></p>
+              <div class="quantity">
+                <div class="tri-left"></div>
+                <span class="qtyCount">0</span>
+                <div class="tri-right"></div>
+              </div>
+              <p></p>
+              <button class="addBtn">Add to order</button>
+            </div>
+
+            <div class="popcornColumn">
+              <img id="small" src="./img/Popcorn/small.png" style="width:100%">
+              <span class="desc">Small</span>
+              <p></p>
+              <div class="quantity">
+                <div class="tri-left"></div>
+                <span class="qtyCount">0</span>
+                <div class="tri-right"></div>
+              </div>
+              <p></p>
+              <button class="addBtn">Add to order</button>
+            </div>
+          </div>
+    </div>
+
+    <div id="drinks" class="tab-content">
+      <h2>Drinks</h2>
+    </div>
+
+    <div id="candy" class="tab-content">
+      <h2>Candy</h2>
+    </div>
+      
+    </div>
+
+    <footer>
+      <button id="concBack" class="concBtns">Back</button>
+      <button id="concNext" class="concBtns">Next</button>
+    </footer>
+
+    <script type="text/javascript" src="./concessionMenu.js"></script>
   </body>
 </html>

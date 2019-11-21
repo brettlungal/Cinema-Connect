@@ -44,6 +44,26 @@ p{
   font-size: x-large;
 }
 
+#showtime{
+  margin-left:40%;
+  padding: 0;
+}
+
+h2 p{
+  color: black;
+}
+
+#selected{
+  
+  float: right;
+  margin-right: 35px;
+}
+
+.selectedTitle{
+  float: right;
+  margin-right: 10px;
+}
+
 .button:hover{
   background-color: #9c9c5d;
   border: black 1.5px solid;
@@ -73,6 +93,7 @@ p{
   float: left;
   margin-left: 50px;
   margin-top: 50px;
+  padding:0;
 }
 
 .grid-container {
