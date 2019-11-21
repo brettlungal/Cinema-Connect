@@ -31,7 +31,7 @@
       <button class="tab-links" onclick="openTab(event, 'candy')">Candy</button>
     </div>
 
-    <!--Tab content-->
+    
     <div id="combos" class="tab-content">
       <h2>Combos</h2>
     </div>
@@ -44,12 +44,12 @@
               <span class="desc">Large</span>
               <p></p>
               <div class="quantity">
-                <div class="tri-left"></div>
-                <span class="qtyCount">0</span>
-                <div class="tri-right"></div>
+                <div id="lrgDwn" class="tri-left"></div>
+                <span id="lrgQty" class="qtyCount">0</span>
+                <div id="lrgUp" class="tri-right"></div>
               </div>
               <p></p>
-              <button class="addBtn">Add to order</button>
+              <button id="addLrg" class="addBtn">Add to order</button>
             </div>
         
             <div class="popcornColumn">
@@ -57,12 +57,12 @@
               <span class="desc">Medium</span>
               <p></p>
               <div class="quantity">
-                <div class="tri-left"></div>
-                <span class="qtyCount">0</span>
-                <div class="tri-right"></div>
+                <div id="medDwn" class="tri-left"></div>
+                <span id="medQty" class="qtyCount">0</span>
+                <div id="medUp" class="tri-right"></div>
               </div>
               <p></p>
-              <button class="addBtn">Add to order</button>
+              <button id="addMed" class="addBtn">Add to order</button>
             </div>
 
             <div class="popcornColumn">
@@ -70,12 +70,12 @@
               <span class="desc">Small</span>
               <p></p>
               <div class="quantity">
-                <div class="tri-left"></div>
-                <span class="qtyCount">0</span>
-                <div class="tri-right"></div>
+                <div id="smlDwn" class="tri-left"></div>
+                <span id="smlQty" class="qtyCount">0</span>
+                <div id="smlUp" class="tri-right"></div>
               </div>
               <p></p>
-              <button class="addBtn">Add to order</button>
+              <button id="addSml" class="addBtn">Add to order</button>
             </div>
           </div>
     </div>
@@ -87,14 +87,21 @@
     <div id="candy" class="tab-content">
       <h2>Candy</h2>
     </div>
-      
+    
+    <div class="yourOrder">
+      <span><u>Your Order:</u></span>
+      <span id="order-items"></span>
+      <p></p>
+      <a href="seatSelector.html"> <button id="concBack" class="concBtns">Back</button></a>
+      <a href="checkout.html"><button id="concNext" class="concBtns">Next</button></a>
     </div>
 
-    <footer>
-      <button id="concBack" class="concBtns">Back</button>
-      <button id="concNext" class="concBtns">Next</button>
-    </footer>
-
+    </div>
     <script type="text/javascript" src="./concessionMenu.js"></script>
   </body>
+
+  <footer>
+      <h3 id="blank">.</h3>
+      <h3>Group6 Productions 2019 © </h3>
+    </footer>
 </html>
