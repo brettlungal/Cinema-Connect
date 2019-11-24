@@ -320,6 +320,11 @@ header nav{
   font-size: large;
 }
 
+.summary{
+  text-align: left;
+  float: left;
+}
+
 .timeSelect{
   background-color: #ffdc82;
   padding: 1em 2em;
