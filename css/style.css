@@ -598,13 +598,58 @@ display: inline-block;
 .signInButton{
   background-color:#b38307;
   width: 50%;
-  height: 100%;
+  height: 30px;
   border-radius: 10px;
   border: black 0.25px solid;
 }
 
 .signInButton:hover{
   background-color: #ffdc82;
+}
+
+#signInOpt:hover{
+  cursor: pointer;
+  color: #b38307;
+}
+
+.accountWindow{
+  background-color: #FFFFE0;
+}
+
+.accountRow{
+  margin-left: 8%;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: Large;
+  font-weight: 900;
+  
+}
+
+.accountRow::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.accountCol{
+  text-align: center;
+  float: left;
+  margin-top: 1%;
+  width: 30%;
+}
+
+#dailyMovie{
+  width: 50%;
+  height: auto;
+}
+
+#prevMovie{
+  width: 50%;
+  height: auto;
+}
+
+.title{
+  font-size: xx-large;
 }
 
 @keyframes modalOpen{
