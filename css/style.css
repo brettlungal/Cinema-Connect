@@ -2,6 +2,10 @@ body{
   background-color: gray;
 }
 
+#signin-body{
+  background-color: #fcfc47;  
+}
+
 header{
   background: #fcfc47;
   color: white;
@@ -551,6 +555,56 @@ display: inline-block;
 
 #email:hover{
   color: #b38307;
+}
+
+.signInLogo{
+  width: 20%;
+  height: auto;
+  align-content: center;
+  margin-left: 39.5%;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.signRow1{
+  margin-left: 8%;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: Large;
+  font-weight: 900;
+  height: 50px;
+}
+.signRow1::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.signin-content-window{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  padding: 1.5%;
+}
+
+.inputField{
+  width: 75%;
+  height: 25px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.signInButton{
+  background-color:#b38307;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  border: black 0.25px solid;
+}
+
+.signInButton:hover{
+  background-color: #ffdc82;
 }
 
 @keyframes modalOpen{
